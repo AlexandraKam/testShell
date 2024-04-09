@@ -1,0 +1,513 @@
+.notification-content {
+    border-color: #282c34;
+    width: 352px;
+    height: 52px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+    padding: 24px;
+    display: flex;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1),
+        -2px -2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.notification-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.notification-description {
+    margin-top: 0;
+    width: 300px;
+}
+
+.notification-label {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: -6px;
+}
+
+.notification-text {
+    font-size: 12px;
+    font-weight: 300;
+    color: #7B7C7D;
+}
+
+// .notification-description {
+
+// }
+
+// progress {
+//     border: none;
+//     background-color: #000000;
+//   }
+
+.progress progress[value="0"]~.progress-bg .progress-bar {
+    width: 0%;
+}
+
+.progress progress[value="1"]~.progress-bg .progress-bar {
+    width: 1%;
+}
+
+.progress progress[value="2"]~.progress-bg .progress-bar {
+    width: 2%;
+}
+
+.progress progress[value="3"]~.progress-bg .progress-bar {
+    width: 3%;
+}
+
+.progress progress[value="4"]~.progress-bg .progress-bar {
+    width: 4%;
+}
+
+.progress progress[value="5"]~.progress-bg .progress-bar {
+    width: 5%;
+}
+
+.progress progress[value="6"]~.progress-bg .progress-bar {
+    width: 6%;
+}
+
+.progress progress[value="7"]~.progress-bg .progress-bar {
+    width: 7%;
+}
+
+.progress progress[value="8"]~.progress-bg .progress-bar {
+    width: 8%;
+}
+
+.progress progress[value="9"]~.progress-bg .progress-bar {
+    width: 9%;
+}
+
+.progress progress[value="10"]~.progress-bg .progress-bar {
+    width: 10%;
+}
+
+.progress progress[value="11"]~.progress-bg .progress-bar {
+    width: 11%;
+}
+
+.progress progress[value="12"]~.progress-bg .progress-bar {
+    width: 12%;
+}
+
+.progress progress[value="13"]~.progress-bg .progress-bar {
+    width: 13%;
+}
+
+.progress progress[value="14"]~.progress-bg .progress-bar {
+    width: 14%;
+}
+
+.progress progress[value="15"]~.progress-bg .progress-bar {
+    width: 15%;
+}
+
+.progress progress[value="16"]~.progress-bg .progress-bar {
+    width: 16%;
+}
+
+.progress progress[value="17"]~.progress-bg .progress-bar {
+    width: 17%;
+}
+
+.progress progress[value="18"]~.progress-bg .progress-bar {
+    width: 18%;
+}
+
+.progress progress[value="19"]~.progress-bg .progress-bar {
+    width: 19%;
+}
+
+.progress progress[value="20"]~.progress-bg .progress-bar {
+    width: 20%;
+}
+
+.progress progress[value="21"]~.progress-bg .progress-bar {
+    width: 21%;
+}
+
+.progress progress[value="22"]~.progress-bg .progress-bar {
+    width: 22%;
+}
+
+.progress progress[value="23"]~.progress-bg .progress-bar {
+    width: 23%;
+}
+
+.progress progress[value="24"]~.progress-bg .progress-bar {
+    width: 24%;
+}
+
+.progress progress[value="25"]~.progress-bg .progress-bar {
+    width: 25%;
+}
+
+.progress progress[value="26"]~.progress-bg .progress-bar {
+    width: 26%;
+}
+
+.progress progress[value="27"]~.progress-bg .progress-bar {
+    width: 27%;
+}
+
+.progress progress[value="28"]~.progress-bg .progress-bar {
+    width: 28%;
+}
+
+.progress progress[value="29"]~.progress-bg .progress-bar {
+    width: 29%;
+}
+
+.progress progress[value="30"]~.progress-bg .progress-bar {
+    width: 30%;
+}
+
+.progress progress[value="31"]~.progress-bg .progress-bar {
+    width: 31%;
+}
+
+.progress progress[value="32"]~.progress-bg .progress-bar {
+    width: 32%;
+}
+
+.progress progress[value="33"]~.progress-bg .progress-bar {
+    width: 33%;
+}
+
+.progress progress[value="34"]~.progress-bg .progress-bar {
+    width: 34%;
+}
+
+.progress progress[value="35"]~.progress-bg .progress-bar {
+    width: 35%;
+}
+
+.progress progress[value="36"]~.progress-bg .progress-bar {
+    width: 36%;
+}
+
+.progress progress[value="37"]~.progress-bg .progress-bar {
+    width: 37%;
+}
+
+.progress progress[value="38"]~.progress-bg .progress-bar {
+    width: 38%;
+}
+
+.progress progress[value="39"]~.progress-bg .progress-bar {
+    width: 39%;
+}
+
+.progress progress[value="40"]~.progress-bg .progress-bar {
+    width: 40%;
+}
+
+.progress progress[value="41"]~.progress-bg .progress-bar {
+    width: 41%;
+}
+
+.progress progress[value="42"]~.progress-bg .progress-bar {
+    width: 42%;
+}
+
+.progress progress[value="43"]~.progress-bg .progress-bar {
+    width: 43%;
+}
+
+.progress progress[value="44"]~.progress-bg .progress-bar {
+    width: 44%;
+}
+
+.progress progress[value="45"]~.progress-bg .progress-bar {
+    width: 45%;
+}
+
+.progress progress[value="46"]~.progress-bg .progress-bar {
+    width: 46%;
+}
+
+.progress progress[value="47"]~.progress-bg .progress-bar {
+    width: 47%;
+}
+
+.progress progress[value="48"]~.progress-bg .progress-bar {
+    width: 48%;
+}
+
+.progress progress[value="49"]~.progress-bg .progress-bar {
+    width: 49%;
+}
+
+.progress progress[value="50"]~.progress-bg .progress-bar {
+    width: 50%;
+}
+
+.progress progress[value="51"]~.progress-bg .progress-bar {
+    width: 51%;
+}
+
+.progress progress[value="52"]~.progress-bg .progress-bar {
+    width: 52%;
+}
+
+.progress progress[value="53"]~.progress-bg .progress-bar {
+    width: 53%;
+}
+
+.progress progress[value="54"]~.progress-bg .progress-bar {
+    width: 54%;
+}
+
+.progress progress[value="55"]~.progress-bg .progress-bar {
+    width: 55%;
+}
+
+.progress progress[value="56"]~.progress-bg .progress-bar {
+    width: 56%;
+}
+
+.progress progress[value="57"]~.progress-bg .progress-bar {
+    width: 57%;
+}
+
+.progress progress[value="58"]~.progress-bg .progress-bar {
+    width: 58%;
+}
+
+.progress progress[value="59"]~.progress-bg .progress-bar {
+    width: 59%;
+}
+
+.progress progress[value="60"]~.progress-bg .progress-bar {
+    width: 60%;
+}
+
+.progress progress[value="61"]~.progress-bg .progress-bar {
+    width: 61%;
+}
+
+.progress progress[value="62"]~.progress-bg .progress-bar {
+    width: 62%;
+}
+
+.progress progress[value="63"]~.progress-bg .progress-bar {
+    width: 63%;
+}
+
+.progress progress[value="64"]~.progress-bg .progress-bar {
+    width: 64%;
+}
+
+.progress progress[value="65"]~.progress-bg .progress-bar {
+    width: 65%;
+}
+
+.progress progress[value="66"]~.progress-bg .progress-bar {
+    width: 66%;
+}
+
+.progress progress[value="67"]~.progress-bg .progress-bar {
+    width: 67%;
+}
+
+.progress progress[value="68"]~.progress-bg .progress-bar {
+    width: 68%;
+}
+
+.progress progress[value="69"]~.progress-bg .progress-bar {
+    width: 69%;
+}
+
+.progress progress[value="70"]~.progress-bg .progress-bar {
+    width: 70%;
+}
+
+.progress progress[value="71"]~.progress-bg .progress-bar {
+    width: 71%;
+}
+
+.progress progress[value="72"]~.progress-bg .progress-bar {
+    width: 72%;
+}
+
+.progress progress[value="73"]~.progress-bg .progress-bar {
+    width: 73%;
+}
+
+.progress progress[value="74"]~.progress-bg .progress-bar {
+    width: 74%;
+}
+
+.progress progress[value="75"]~.progress-bg .progress-bar {
+    width: 75%;
+}
+
+.progress progress[value="76"]~.progress-bg .progress-bar {
+    width: 76%;
+}
+
+.progress progress[value="77"]~.progress-bg .progress-bar {
+    width: 77%;
+}
+
+.progress progress[value="78"]~.progress-bg .progress-bar {
+    width: 78%;
+}
+
+.progress progress[value="79"]~.progress-bg .progress-bar {
+    width: 79%;
+}
+
+.progress progress[value="80"]~.progress-bg .progress-bar {
+    width: 80%;
+}
+
+.progress progress[value="81"]~.progress-bg .progress-bar {
+    width: 81%;
+}
+
+.progress progress[value="82"]~.progress-bg .progress-bar {
+    width: 82%;
+}
+
+.progress progress[value="83"]~.progress-bg .progress-bar {
+    width: 83%;
+}
+
+.progress progress[value="84"]~.progress-bg .progress-bar {
+    width: 84%;
+}
+
+.progress progress[value="85"]~.progress-bg .progress-bar {
+    width: 85%;
+}
+
+.progress progress[value="86"]~.progress-bg .progress-bar {
+    width: 86%;
+}
+
+.progress progress[value="87"]~.progress-bg .progress-bar {
+    width: 87%;
+}
+
+.progress progress[value="88"]~.progress-bg .progress-bar {
+    width: 88%;
+}
+
+.progress progress[value="89"]~.progress-bg .progress-bar {
+    width: 89%;
+}
+
+.progress progress[value="90"]~.progress-bg .progress-bar {
+    width: 90%;
+}
+
+.progress progress[value="91"]~.progress-bg .progress-bar {
+    width: 91%;
+}
+
+.progress progress[value="92"]~.progress-bg .progress-bar {
+    width: 92%;
+}
+
+.progress progress[value="93"]~.progress-bg .progress-bar {
+    width: 93%;
+}
+
+.progress progress[value="94"]~.progress-bg .progress-bar {
+    width: 94%;
+}
+
+.progress progress[value="95"]~.progress-bg .progress-bar {
+    width: 95%;
+}
+
+.progress progress[value="96"]~.progress-bg .progress-bar {
+    width: 96%;
+}
+
+.progress progress[value="97"]~.progress-bg .progress-bar {
+    width: 97%;
+}
+
+.progress progress[value="98"]~.progress-bg .progress-bar {
+    width: 98%;
+}
+
+.progress progress[value="99"]~.progress-bg .progress-bar {
+    width: 99%;
+}
+
+.progress progress[value="100"]~.progress-bg .progress-bar {
+    width: 100%;
+}
+
+.progress {
+    position: relative;
+    overflow: hidden;
+}
+
+.progress progress {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: -777px;
+}
+
+.progress-bg {
+    background: #C7C9C8;
+    position: relative;
+    height: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@keyframes progress_bar {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -40px 0;
+    }
+}
+
+.progress-bar {
+    overflow: hidden;
+    background: #000000;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    -webkit-transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -ms-transition: width 1s linear;
+    transition: width 1s linear;
+}
+
+.progress-bar:after {
+    -webkit-animation: progress_bar 0.8s linear infinite;
+    -moz-animation: progress_bar 0.8s linear infinite;
+    -ms-animation: progress_bar 0.8s linear infinite;
+    -o-animation: progress_bar 0.8s linear infinite;
+    animation: progress_bar 0.8s linear infinite;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

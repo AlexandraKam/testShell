@@ -1,3 +1,9 @@
+body {
+  font-size: 16px;
+  font-family: HelveticaNeueCyr, Arial, sans-serif;
+  font-weight: 550;
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +38,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.new-request__button {
+  font-size: 16px;
+  font-family: HelveticaNeueCyr, Arial, sans-serif;
+  font-weight: 550;
+  width: 150px;
+  height: 50px;
+  top: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
