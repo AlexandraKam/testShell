@@ -1,3 +1,8 @@
+// .ReactModal__Content {
+//     width: 400px;
+//     height: 100px;
+// }
+
 .notification-content {
     border-color: #282c34;
     width: 352px;
@@ -42,6 +47,20 @@
 // progress {
 //     border: none;
 //     background-color: #000000;
+//   }
+
+// .progress-bar {
+//     width: 100%;
+//     height: 30px;
+//     background-color: #f3f3f3;
+//     position: relative;
+//   }
+
+//   .progress-bar-inner {
+//     height: 100%;
+//     width: 0;
+//     background-color: #4caf50;
+//     position: absolute;
 //   }
 
 .progress progress[value="0"]~.progress-bg .progress-bar {
