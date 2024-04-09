@@ -1,8 +1,3 @@
-// .ReactModal__Content {
-//     width: 400px;
-//     height: 100px;
-// }
-
 .notification-content {
     border-color: #282c34;
     width: 352px;
@@ -11,6 +6,7 @@
     margin-right: 10px;
     margin-left: auto;
     padding: 24px;
+    cursor: pointer;
     display: flex;
     border-radius: 7px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1),
@@ -39,29 +35,6 @@
     font-weight: 300;
     color: #7B7C7D;
 }
-
-// .notification-description {
-
-// }
-
-// progress {
-//     border: none;
-//     background-color: #000000;
-//   }
-
-// .progress-bar {
-//     width: 100%;
-//     height: 30px;
-//     background-color: #f3f3f3;
-//     position: relative;
-//   }
-
-//   .progress-bar-inner {
-//     height: 100%;
-//     width: 0;
-//     background-color: #4caf50;
-//     position: absolute;
-//   }
 
 .progress progress[value="0"]~.progress-bg .progress-bar {
     width: 0%;
@@ -506,18 +479,9 @@
     top: 0;
     left: 0;
     width: 0;
-    -webkit-transition: width 1s linear;
-    -moz-transition: width 1s linear;
-    -ms-transition: width 1s linear;
-    transition: width 1s linear;
 }
 
 .progress-bar:after {
-    -webkit-animation: progress_bar 0.8s linear infinite;
-    -moz-animation: progress_bar 0.8s linear infinite;
-    -ms-animation: progress_bar 0.8s linear infinite;
-    -o-animation: progress_bar 0.8s linear infinite;
-    animation: progress_bar 0.8s linear infinite;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);

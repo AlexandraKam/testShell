@@ -1,37 +1,36 @@
 import { useEffect, useState } from 'react';
 import './Notification.scss';
-import Modal from 'react-modal';
 
-function Notification({ status, label, text }) {
 
-    const [modalIsOpen, setModalIsOpen] = useState(true);
+function Notification({ status, label, text, modalIsClose }) {
+
     const [data, setData] = useState(0);
+    const [timer, setTimer] = useState();
 
     useEffect(() => {
-        // setTimeout(function () {
-        //     setData(100);
-        //     setTimeout(() => {
-                
-        //     }, 100)
-
-        // }, 3000)
+        console.log('useEFFECT')
         let i = 0;
         let id = setInterval(() => {
             setData(i++);
+            
             if (i == 100) {
                 clearInterval(id);
-                setModalIsOpen(false)
+                modalIsClose();
             }
         }, 30)
-
+        setTimer(id);
     }, [])
 
-    const closeModal = () => {
-        setModalIsOpen(false)
+    
+
+    const handleMouseEnter = () => {
+        clearInterval(timer);
+        console.log(timer)
     }
 
-    const modalContent = (
-        <div className="notification-content">
+
+    return (
+        <div className="notification-content" onMouseEnter={handleMouseEnter}>
             <img className="notification-icon" src={status === "success" ? "icons/success.png" : "icons/error.png"}></img>
             <div className="notification-description">
                 <h2 className="notification-label">{label}</h2>
@@ -39,19 +38,13 @@ function Notification({ status, label, text }) {
                     {text}
                 </p>
                 <div className="progress">
-                    <progress max={100} value={data} />
+                    <progress max="100" value={data} />
                     <div className="progress-bg">
                         <div className="progress-bar" />
                     </div>
                 </div>
             </div>
         </div>
-    )
-
-    return (
-        <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
-            {modalContent}
-        </Modal>
     );
 }
 

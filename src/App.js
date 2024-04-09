@@ -2,10 +2,10 @@ import Notification from './components/Notification'
 import './App.css';
 import { useState } from 'react';
 
-
 function App() {
 
-  const [notificationIsOpen, setNotificationIsOpen] = useState([false, 0, 0, 0]);
+  const [notificationIsOpen, setNotificationIsOpen] = useState(false);
+  const [notificationContent, setNotificationContent] = useState([0, 0, 0]);
 
   const simulateServer = () => {
     return new Promise((resolve, reject) => {
@@ -19,8 +19,24 @@ function App() {
     });
   };
 
+  const openNotification = () => {
+    simulateServer()
+      .then(() => {
+        setNotificationContent(["success", "Успешно", "Изменения успешно сохранены"]);
+        setNotificationIsOpen(true)
+      })
+      .catch(() => {
+        setNotificationContent(["error", "Изменения не сохранены", "Потеря интернет соединения"]);
+        setNotificationIsOpen(true)
+      })
+  }
+
+  const closeModal = () => {
+    setNotificationIsOpen(false)
+  }
+
   return (
-    <div className="container">
+    <div className="container" onClick={closeModal}>
       <div className="background-element">
       </div>
       <div className="highlight-window">
@@ -28,10 +44,9 @@ function App() {
       </div>
       <div className="window">
         <div className="new-request">
-          <button className="new-request__button" onClick={() => simulateServer().then(() => { setNotificationIsOpen([true, "success", "Успешно", "Изменения успешно сохранены"]) }).
-            catch(() => { setNotificationIsOpen([true, "error", "Изменения не сохранены", "Потеря интернет соединения"]) })}>Запрос</button>
+          <button className="new-request__button" onClick={openNotification}>Запрос</button>
         </div>
-        {notificationIsOpen[0] && < Notification status={notificationIsOpen[1]} label={notificationIsOpen[2]} text={notificationIsOpen[3]} />}
+        {notificationIsOpen && < Notification status={notificationContent[0]} label={notificationContent[1]} text={notificationContent[2]} modalIsClose={closeModal} />}
       </div>
     </div>
   );
